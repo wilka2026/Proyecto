@@ -1,0 +1,37 @@
+.registro{
+    border: 2px solid black;
+    width: 600px;
+    height: 400px;
+    border-radius: 12px;
+    gap: 20px;
+    background-color: azure;
+    margin-left: 200px;
+    margin-top: 100px;
+}
+.registro h2 {
+    display: flex;
+    justify-content: center;
+}
+
+.registro label {
+    margin-left: 100px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+}
+.registro button {
+    margin-left: 120px;
+    width: 100px;
+    height: 40px;
+    background-color: dimgray;
+    color: rgb(26, 21, 21);
+    border-radius: 7px;
+    font-size: larger;
+}
+.registro input {
+    width: 300px;
+    height: 30px;
+    border-radius: 9px;
+}
+body {
+    background-color: bisque;
+}

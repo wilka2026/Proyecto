@@ -1,0 +1,416 @@
+.nav {
+    display: flex;
+    justify-content: left;
+    gap: 20px;
+    background-color: #161212;
+    padding: 1rem;
+    border-radius: 7px;
+}
+
+.nav a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav a:hover{
+    color: #ff9900;
+}
+
+.button1{
+   
+    justify-content:left;
+    margin-left: 850px;
+    width: 80px;
+    height: 30px;
+    border: 3px solid cyan;
+    border-radius: 7px;
+}
+
+.button2{
+    
+    justify-content: left;
+    margin-left: -8px;
+    width: 100px;
+    height: 30px;
+    border: 3px solid cyan;
+    border-radius: 7px;
+}
+body {
+    background-color: #333;
+}
+
+.section1{
+    
+    color: white;
+    
+    height: 270px;
+    margin-bottom: 4px;
+    margin-top: 4px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+.tarjeta{
+    
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0,1);
+    overflow: hidden;
+    width: 150px;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.tarjeta:hover{
+    transform: translateY(5px);
+}
+
+.tarjeta figure{
+    margin: 0px;
+    height: 190px;
+}
+
+.tarjeta img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.tarjeta h5 {
+    color: #000000;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 15px;
+}
+.boton {
+    display: inline-block;
+    margin-top: -15px;
+    padding-top: -15px;
+    padding-left: 15px;
+    
+}
+
+.tarjeta1{
+    position: relative;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0,1);
+    overflow: hidden;
+    width: 150px;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.tarjeta1:hover{
+    transform: translateY(5px);
+}
+
+.tarjeta1 figure{
+    margin: 0px;
+    height: 190px;
+}
+
+.tarjeta1 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.tarjeta1 h5 {
+    color: #000000;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 15px;
+}
+.boton {
+    display: inline-block;
+    margin-top: -15px;
+    padding-top: -15px;
+    padding-left: 15px;
+    
+}
+
+.tarjeta2{
+    position: relative;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0,1);
+    overflow: hidden;
+    width: 150px;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.tarjeta2:hover{
+    transform: translateY(5px);
+}
+
+.tarjeta2 figure{
+    margin: 0px;
+    height: 190px;
+}
+
+.tarjeta2 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.tarjeta2 h5 {
+    color: #000000;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 15px;
+}
+.boton {
+    display: inline-block;
+    margin-top: -15px;
+    padding-top: -15px;
+    padding-left: 15px;
+    
+}
+
+.tarjeta3{
+    position: relative;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0,1);
+    overflow: hidden;
+    width: 150px;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.tarjeta3:hover{
+    transform: translateY(5px);
+}
+
+.tarjeta3 figure{
+    margin: 0px;
+    height: 190px;
+}
+
+.tarjeta3 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.tarjeta3 h5 {
+    color: #000000;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 15px;
+}
+.boton {
+    display: inline-block;
+    margin-top: -15px;
+    padding-top: -15px;
+    padding-left: 15px;
+}
+
+.tarjeta4{
+    position: relative;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0,1);
+    overflow: hidden;
+    width: 150px;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.tarjeta4:hover{
+    transform: translateY(5px);
+}
+
+.tarjeta4 figure{
+    margin: 0px;
+    height: 190px;
+}
+
+.tarjeta4 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.tarjeta4 h5 {
+    color: #000000;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 15px;
+}
+.boton {
+    display: inline-block;
+    margin-top: -15px;
+    padding-top: -15px;
+    padding-left: 15px;
+    
+}
+
+.tarjeta5{
+    position: relative;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0,1);
+    overflow: hidden;
+    width: 150px;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.tarjeta5:hover{
+    transform: translateY(5px);
+}
+
+.tarjeta5 figure{
+    margin: 0px;
+    height: 190px;
+}
+
+.tarjeta5 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.tarjeta5 h5 {
+    color: #000000;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 15px;
+}
+.boton {
+    display: inline-block;
+    margin-top: -15px;
+    padding-top: -15px;
+    padding-left: 15px;
+    
+}
+
+.tarjeta6{
+    position: relative;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0,1);
+    overflow: hidden;
+    width: 150px;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.tarjeta6:hover{
+    transform: translateY(5px);
+}
+
+.tarjeta6 figure{
+    margin: 0px;
+    height: 190px;
+}
+
+.tarjeta6 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.tarjeta6 h5 {
+    color: #000000;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 15px;
+}
+.boton {
+    display: inline-block;
+    margin-top: -15px;
+    padding-top: -15px;
+    padding-left: 15px;
+    
+}
+
+.tarjeta7{
+    position: relative;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0,1);
+    overflow: hidden;
+    width: 150px;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.tarjeta7:hover{
+    transform: translateY(5px);
+}
+
+.tarjeta7 figure{
+    margin: 0px;
+    height: 190px;
+}
+
+.tarjeta7 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.tarjeta7 h5 {
+    color: #000000;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 15px;
+}
+.boton {
+    display: inline-block;
+    margin-top: -15px;
+    padding-top: -15px;
+    padding-left: 15px;
+    
+}
+
+
+
+.section2{
+    
+    height: 290px;
+    margin-bottom: 4px;
+    margin-top: 4px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+.tarjeta9{
+    position: relative;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0,1);
+    overflow: hidden;
+    width: 150px;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.tarjeta9:hover{
+    transform: translateY(5px);
+}
+
+.tarjeta9 figure{
+    margin: 0px;
+    height: 190px;
+}
+
+.tarjeta9 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.tarjeta9 h5 {
+    color: #000000;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 15px;
+}
+.boton {
+    display: inline-block;
+    margin-top: -15px;
+    padding-top: -15px;
+    padding-left: 15px;    
+}
