@@ -2,14 +2,14 @@
     display: flex;
     justify-content: left;
     gap: 20px;
-    background-color: #161212;
+    background-color: antiquewhite;
     padding: 1rem;
     border-radius: 7px;
 }
 
 .nav a{
     text-decoration: none;
-    color: white;
+    color: black;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -37,7 +37,7 @@
     border-radius: 7px;
 }
 body {
-    background-color: #333;
+    background-color: darksalmon;
 }
 
 .section1{
@@ -413,4 +413,62 @@ body {
     margin-top: -15px;
     padding-top: -15px;
     padding-left: 15px;    
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+footer a {
+    text-decoration: none;
+    color: inherit;
+    font-size: 0.9rem;
+}
+
+/* Contenedor principal: Alineación en columnas */
+footer {
+    background-color: #333;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; /* Distribuye las secciones proporcionalmente */
+    align-items: flex-start;
+    padding: 40px 5%;
+    font-family: sans-serif;
+}
+
+/* Ajuste de cada sección (columna) */
+footer > section {
+    flex: 1;
+    min-width: 200px; /* Evita que se amontonen en pantallas pequeñas */
+    margin-bottom: 20px;
+}
+
+/* Estilo específico para la última sección (Barra inferior negra) */
+footer > section:last-child {
+    flex: 1 1 100%; /* Ocupa todo el ancho */
+    text-align: center;
+    
+    color: white;
+    padding: 15px 0;
+    margin-bottom: 0;
+}
+
+/* Formato de los títulos */
+footer h3 {
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+    
+}
+
+/* Ajuste para la sección de redes sociales y contacto */
+address {
+    font-style: normal;
+    margin-top: 10px;
+}
+
+address p {
+    margin: 5px 0;
+    font-size: 0.85rem;
 }

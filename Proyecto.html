@@ -8,10 +8,15 @@
 </head>
 <body>
     <nav class="nav">
-       <a href="">Genero</a>
-       <a href="">Inicio</a>
-       <a href="">Estreno</a>
-
+        <form action="">
+            <select name="" id="" onchange="if(this.value) window.location.href=this.value;">
+                <option value="">Genero</option>
+                <option value="anime.html">Anime</option>
+                <option value="ficcion.html">Cine ficción</option>
+                <option value="comedia.html">Comedia</option>
+            </select>
+        </form>
+        
        <button class="button1" type="submit" onclick="window.location.href='registro.html';">Registro</button>
        <button class="button2">Iniciar sesión</button>
     </nav>
@@ -296,35 +301,53 @@
                 <a href="" class="boton">Saber mas</a>
             </section>
         </article>
-    </section>
+    </section> <br><br>
 
-    <footer class="footer">
-  <!-- Información de la Empresa -->
-  <section>
-    <address>
-      <strong>Cinevía S.A.</strong><br />
-      Calle 123, Ciudad de Medellin<br />
-      <a href="@cinevia.com"></a><br />
-      <a href="tel:36529416">365294169</a>
-    </address>
+    <footer>
+        <section>
+            <header>
+                <h3>Información legal</h3>
+            </header>
+            <nav>
+                    <li><a href="#">Política de privacidad</a></li>
+                    <li><a href="#">Términos y condiciones</a></li>
+                </ul>
+            </nav>
+        </section>
 
-    <!-- Navegación Legal -->
-    <nav class="footer-nav">
-      <ul>
-        <li><a href="/privacidad">Política de Privacidad</a></li>
-        <li><a href="/terminos">Términos de Uso</a></li>
-      </ul>
-    </nav>
+        <section>
+            <header>
+                <h3>Navegación</h3>
+            </header>
+            <nav>
+                <ul>
+                    <li><a href="#">Condiciones</a></li>
+                    <li><a href="#">Contacto</a></li>
+                </ul>
+            </nav>
+        </section>
 
-    <!-- Redes Sociales -->
-    <nav class="social-links">
-      <a href="#" aria-label="Facebook">Facebook</a><br />
-      <a href="#" aria-label="Instagram">Instagram</a><br />
-      <a href="#" aria-label="Twitter">Twitter</a>
-    </nav>
-  </section>
+        <section>
+            <nav>
+                <a href="#">Facebook</a><br>
+                <a href="#">Instagram</a>
+            </nav>
 
-        <p class="copyright">&copy; 2026 Cinevía.</p>
-        </footer>
+            <address>
+                <p>📞 +57 3212193174</p>
+                <p>✉️ <a href="#">wcastrillon@cesde.net</a></p>
+            </address>
+        </section>
+
+        <section>
+            <small>
+                Wilkaris Castrillón | Asistente de software
+            </small><br>
+            <small>
+                Cesde 2026
+            </small>
+        </section>
+    </footer>
+    
 </body>
 </html>
