@@ -1,15 +1,16 @@
 .nav {
+    box-sizing: border-box;
     display: flex;
-    justify-content: left;
+    justify-content: flex-start;
     gap: 20px;
     background-color: #1B263B;
     padding: 1rem;
     border-radius: 7px;
 }
 
-.button1{
-   
-    justify-content:left;
+.button1 {
+
+    justify-content: left;
     margin-left: 850px;
     width: 80px;
     height: 30px;
@@ -17,8 +18,8 @@
     border-radius: 7px;
 }
 
-.button2{
-    
+.button2 {
+
     justify-content: left;
     margin-left: -8px;
     width: 100px;
@@ -26,15 +27,16 @@
     border: 3px solid #1B263B;
     border-radius: 7px;
 }
+
 body {
     background-color: #0D1B2A;
 }
 
-.section1{
-    
+.section1 {
+
     color: #1B263B;
-    
-    height: 270px;
+
+    min-height: 270px;
     margin-bottom: 4px;
     margin-top: 4px;
     display: flex;
@@ -43,82 +45,86 @@ body {
     justify-content: center;
 }
 
-.tarjeta{
-    
+.tarjeta {
+
     background: #1B263B;
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0,1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0, 1);
     overflow: hidden;
     width: 150px;
     height: auto;
     transition: transform 0.3s ease;
 }
 
-.tarjeta:hover{
+.tarjeta:hover {
     transform: translateY(5px);
 }
 
-.tarjeta figure{
+.tarjeta figure {
     margin: 0px;
     height: 190px;
 }
 
-.tarjeta img{
+.tarjeta img {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
+
 .tarjeta h5 {
     color: white;
     justify-content: center;
     font-family: Arial, Helvetica, sans-serif;
     padding-left: 15px;
 }
+
 .boton {
     display: inline-block;
     margin-top: -15px;
     padding-top: -15px;
     padding-left: 15px;
-    
+
 }
 
-.tarjeta1{
+.tarjeta1 {
     position: relative;
     background: #1B263B;
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0,1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0, 1);
     overflow: hidden;
     width: 150px;
     height: auto;
     transition: transform 0.3s ease;
 }
 
-.tarjeta1:hover{
+.tarjeta1:hover {
     transform: translateY(5px);
 }
 
-.tarjeta1 figure{
+.tarjeta1 figure {
     margin: 0px;
     height: 190px;
 }
 
-.tarjeta1 img{
+.tarjeta1 img {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
+
 .tarjeta1 h5 {
     color: white;
     justify-content: center;
     font-family: Arial, Helvetica, sans-serif;
     padding-left: 15px;
 }
+
 .boton {
     display: inline-block;
     margin-top: -15px;
     padding-top: -15px;
     padding-left: 15px;
-    
+
 }
 
 
@@ -134,29 +140,27 @@ footer a {
     font-size: 0.9rem;
 }
 
-/* Contenedor principal: Alineación en columnas */
 footer {
     background-color: #333;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around; /* Distribuye las secciones proporcionalmente */
+    justify-content: space-around;
     align-items: flex-start;
     padding: 40px 5%;
     font-family: sans-serif;
 }
 
-/* Ajuste de cada sección (columna) */
-footer > section {
+footer>section {
     flex: 1;
-    min-width: 200px; /* Evita que se amontonen en pantallas pequeñas */
+    min-width: 200px;
     margin-bottom: 20px;
 }
 
-/* Estilo específico para la última sección (Barra inferior negra) */
-footer > section:last-child {
-    flex: 1 1 100%; /* Ocupa todo el ancho */
+footer>section:last-child {
+    flex: 1 1 100%;
+    /* Ocupa todo el ancho */
     text-align: center;
-    
+
     color: white;
     padding: 15px 0;
     margin-bottom: 0;
@@ -166,10 +170,9 @@ footer > section:last-child {
 footer h3 {
     font-size: 1.1rem;
     margin-bottom: 15px;
-    
+
 }
 
-/* Ajuste para la sección de redes sociales y contacto */
 address {
     font-style: normal;
     margin-top: 10px;
@@ -178,4 +181,52 @@ address {
 address p {
     margin: 5px 0;
     font-size: 0.85rem;
+}
+@media(max-width: 480px){
+    .nav {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 15px;
+    background-color: #1B263B;
+    padding: 1rem;
+    border-radius: 7px;
+    width: 100%;
+}
+    .section1{
+        flex-direction: row;
+        
+    }
+    .tarjeta {
+        background: #1B263B;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0, 1);
+        overflow: hidden;
+        width: 90%;
+        height: auto;
+        transition: transform 0.3s ease;
+    }
+
+    .tarjeta:hover {
+    transform: translateY(5px);
+    }
+
+    .tarjeta figure {
+    margin: 0px;
+    height: 190px;
+    }
+
+    .tarjeta img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    }
+
+    .tarjeta h5 {
+    color: white;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 15px;
+    }
 }
